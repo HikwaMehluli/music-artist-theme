@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Static multi-page website for "Zimbo Artist" — a fictional music artist site. Plain HTML + Tailwind CSS v3. No frameworks, no backend.
+Static multi-page website for "thatAfro" — a fictional music artist site. Plain HTML + Tailwind CSS v3. No frameworks, no backend.
 
 ## Pages (10 + 1 error)
 
@@ -94,7 +94,7 @@ The CSS is split into modular partials in `src/css/`. Each file is wrapped in `@
 
 ## Conventions
 
-- **Branding:** Always "Zimbo Artist" (not "Sonic Wave" or other names).
+- **Branding:** Always "thatAfro" (not "Sonic Wave" or other names).
 - **Nav order:** Home, Music, Videos, Tour, Shop. No search icon. Cart icon + hamburger menu only.
 - **Footer:** 3 columns — Logo+description+social | Quick Links (2-col grid: Music, Videos, Tour, Shop) | Contact. All pages use identical footer. The `.footer-background` uses `pointer-events-none` so links remain clickable.
 - **Font:** Poppins (Google Fonts). Loaded in every page `<head>`.

@@ -1,4 +1,4 @@
-# Zimbo Artist
+# thatAfro
 
 A static multi-page website for a fictional music artist. Built with plain HTML + Tailwind CSS v3 — no frameworks, no backend.
 
