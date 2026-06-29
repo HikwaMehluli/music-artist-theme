@@ -2,6 +2,23 @@
 
 A static multi-page website for a fictional music artist. Built with plain HTML + Tailwind CSS v3 — no frameworks, no backend.
 
+## Live demo site
+
+> [Live Demo](https://hikwamehluli.github.io/music-artist-theme)
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Start dev server + CSS watch
+npm run dev
+
+# Or just serve
+npm start
+```
+
 ## Live Preview site
 
 > http://localhost:8080 (run `npm start`)
@@ -21,19 +38,6 @@ A static multi-page website for a fictional music artist. Built with plain HTML 
 | Cart | Shopping cart with promo code input |
 | Checkout | Multi-step checkout form with autofill |
 | 404 Error | Custom error page |
-
-## Getting Started
-
-```bash
-# Install dependencies
-npm install
-
-# Start dev server + CSS watch
-npm run dev
-
-# Or just serve
-npm start
-```
 
 ## Project Structure
 
