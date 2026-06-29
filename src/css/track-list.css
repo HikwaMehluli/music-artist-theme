@@ -1,0 +1,17 @@
+@layer components {
+	.track-item {
+		@apply flex items-center py-3 border-b border-white/10 last:border-0;
+	}
+
+	.track-number {
+		@apply w-8 text-sm;
+	}
+
+	.track-name {
+		@apply flex-1;
+	}
+
+	.track-duration {
+		@apply text-sm;
+	}
+}

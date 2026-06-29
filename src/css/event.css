@@ -1,0 +1,142 @@
+@layer components {
+	.event-hero {
+		@apply relative pt-32 pb-20 bg-black text-white;
+	}
+
+	.event-hero-bg {
+		@apply absolute inset-0 bg-gradient-to-br from-purple-900/30 via-black to-blue-900/20;
+	}
+
+	.event-hero-content {
+		@apply relative z-10;
+	}
+
+	.back-link {
+		@apply text-white/60 text-sm hover:text-white transition-colors no-underline inline-flex items-center gap-2 mb-6;
+	}
+
+	.event-title {
+		@apply text-5xl md:text-6xl font-extrabold mb-6;
+	}
+
+	.event-meta {
+		@apply flex flex-wrap gap-6;
+	}
+
+	.event-meta-item {
+		@apply flex items-center gap-2 text-white/70 text-sm;
+	}
+
+	.event-details {
+		@apply py-20;
+	}
+
+	.event-details-grid {
+		@apply grid grid-cols-1 lg:grid-cols-3 gap-12;
+	}
+
+	.event-main-content {
+		@apply lg:col-span-2;
+	}
+
+	.event-description h2 {
+		@apply text-2xl font-bold mb-4;
+	}
+
+	.event-description p {
+		@apply text-gray-700 leading-relaxed mb-4;
+	}
+
+	.event-lineup h3 {
+		@apply text-xl font-bold mb-4;
+	}
+
+	.lineup-artist {
+		@apply flex items-center gap-6 py-4 border-b border-gray-200 last:border-0;
+	}
+
+	.lineup-time {
+		@apply text-[#737373] text-sm w-36 shrink-0;
+	}
+
+	.lineup-name {
+		@apply font-semibold text-lg flex-1;
+	}
+
+	.lineup-stage {
+		@apply text-[#737373] text-sm;
+	}
+
+	/* Shared info panel */
+	.info-panel {
+		@apply bg-[#f7f7f7] p-8;
+	}
+
+	.event-ticket-box {
+		@apply info-panel;
+	}
+
+	.event-ticket-box h3 {
+		@apply text-xl font-bold mb-4;
+	}
+
+	.ticket-price {
+		@apply mb-6;
+	}
+
+	.price-from {
+		@apply text-[#737373] text-sm block;
+	}
+
+	.price-amount {
+		@apply text-4xl font-bold;
+	}
+
+	.ticket-types {
+		@apply mb-6;
+	}
+
+	.ticket-type {
+		@apply flex justify-between py-3 border-b border-gray-200;
+	}
+
+	.ticket-name {
+		@apply text-sm;
+	}
+
+	.ticket-price-small {
+		@apply font-semibold;
+	}
+
+	.ticket-note {
+		@apply text-[#737373] text-xs text-center mt-4;
+	}
+
+	.event-info-box {
+		@apply info-panel mt-6;
+	}
+
+	.event-info-box h4 {
+		@apply font-bold mb-4;
+	}
+
+	.event-info-list {
+		@apply list-none p-0 m-0;
+	}
+
+	.event-info-list li {
+		@apply flex justify-between py-2 text-sm border-b border-gray-200 last:border-0;
+	}
+
+	.event-info-list strong {
+		@apply text-gray-900;
+	}
+
+	.event-share {
+		@apply mt-6;
+	}
+
+	.event-share h4 {
+		@apply font-bold mb-4;
+	}
+}

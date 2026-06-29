@@ -1,0 +1,9 @@
+@layer components {
+	.gallery-item.tall {
+		@apply row-span-2;
+	}
+
+	.gallery-item.wide {
+		@apply col-span-2;
+	}
+}

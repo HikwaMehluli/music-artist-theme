@@ -1,0 +1,53 @@
+@layer components {
+	.site-footer {
+		@apply relative bg-[#0a0a0a] text-white pt-20 pb-8 overflow-hidden;
+	}
+
+	.footer-background {
+		@apply absolute inset-0 opacity-5 pointer-events-none;
+	}
+
+	.footer-grid {
+		@apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-16;
+	}
+
+	.footer-logo {
+		@apply text-xl font-bold tracking-widest mb-4;
+	}
+
+	.footer-description {
+		@apply text-white/70 text-sm leading-relaxed mb-6;
+	}
+
+	.footer-heading {
+		@apply text-sm font-bold uppercase tracking-wider mb-6;
+	}
+
+	.footer-links {
+		@apply list-none p-0 m-0;
+	}
+
+	.footer-links li {
+		@apply mb-3;
+	}
+
+	.footer-links a {
+		@apply text-white/70 text-sm hover:text-white transition-colors no-underline;
+	}
+
+	.footer-links li:not(:has(a)) {
+		@apply text-white/70 text-sm;
+	}
+
+	.footer-bottom {
+		@apply border-t border-white/10 pt-8 text-center text-white/50 text-sm;
+	}
+
+	.social-links {
+		@apply flex gap-3;
+	}
+
+	.social-link {
+		@apply w-10 h-10 rounded-full border border-white/20 flex items-center justify-center text-white/70 hover:text-white hover:border-white transition-all;
+	}
+}

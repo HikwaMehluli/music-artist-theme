@@ -1,0 +1,21 @@
+@layer components {
+	.error-page-section {
+		@apply relative min-h-screen flex items-center justify-center bg-black text-white pt-20;
+	}
+
+	.error-page-content {
+		@apply relative z-10 text-center px-5 -mt-20;
+	}
+
+	.error-page-number {
+		@apply text-[8rem] md:text-[12rem] lg:text-[16rem] font-extrabold leading-none mb-2 text-white select-none;
+	}
+
+	.error-page-title {
+		@apply text-3xl md:text-4xl font-bold mb-6 text-white;
+	}
+
+	.error-page-description {
+		@apply text-[#d4d4d4] text-lg max-w-xl mx-auto mb-10 leading-relaxed;
+	}
+}

@@ -1,0 +1,9 @@
+@layer components {
+	.stat-number {
+		@apply text-4xl font-bold block;
+	}
+
+	.stat-label {
+		@apply text-[#d4d4d4] text-sm;
+	}
+}

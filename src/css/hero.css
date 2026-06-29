@@ -1,0 +1,29 @@
+@layer components {
+	.hero-section {
+		@apply relative min-h-screen flex items-center justify-center overflow-hidden bg-black;
+	}
+
+	.hero-background {
+		@apply absolute inset-0 bg-gradient-to-br from-purple-900/40 via-black to-blue-900/30;
+	}
+
+	.hero-content {
+		@apply relative z-10 text-center text-white px-5;
+	}
+
+	.hero-subtitle {
+		@apply inline-block text-sm font-semibold uppercase tracking-[0.3em] text-[#d4d4d4] mb-6;
+	}
+
+	.hero-title {
+		@apply text-6xl md:text-8xl lg:text-9xl font-extrabold leading-none mb-6 tracking-tight;
+	}
+
+	.hero-description {
+		@apply text-lg text-white/70 max-w-xl mx-auto mb-10;
+	}
+
+	.hero-buttons {
+		@apply flex gap-4 justify-center flex-wrap;
+	}
+}

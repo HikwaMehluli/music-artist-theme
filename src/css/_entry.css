@@ -1,0 +1,34 @@
+/* ============================================
+   Zimbo Artist — CSS Entry Point
+   ============================================
+   Import all partials here. Tailwind compiles
+   this file into dist/styles.css.
+   
+   Order matters: base → components → pages
+   ============================================ */
+
+/* Tailwind directives + base styles */
+@import 'base.css';
+
+/* Shared components */
+@import 'buttons.css';
+@import 'header.css';
+@import 'mobile-menu.css';
+@import 'hero.css';
+@import 'footer.css';
+@import 'page-hero.css';
+@import 'newsletter.css';
+
+/* Content blocks */
+@import 'album-card.css';
+@import 'track-list.css';
+@import 'tour-dates.css';
+@import 'video.css';
+@import 'gallery.css';
+@import 'stats.css';
+@import 'discography.css';
+
+/* Page-specific */
+@import 'album-single.css';
+@import 'event.css';
+@import 'error.css';

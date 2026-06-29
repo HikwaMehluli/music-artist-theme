@@ -1,0 +1,9 @@
+@layer components {
+	.newsletter-form {
+		@apply flex gap-0 max-w-lg mx-auto mt-8;
+	}
+
+	.newsletter-input {
+		@apply flex-1 px-4 py-3 bg-transparent border border-black text-black placeholder-black text-sm outline-none focus:border-black transition-colors rounded-none;
+	}
+}

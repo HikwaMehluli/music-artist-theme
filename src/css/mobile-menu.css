@@ -1,0 +1,33 @@
+@layer components {
+	.mobile-menu-overlay {
+		@apply fixed inset-0 bg-black/60 z-[55] opacity-0 pointer-events-none transition-opacity duration-300;
+	}
+
+	.mobile-menu-overlay.open {
+		@apply opacity-100 pointer-events-auto;
+	}
+
+	.mobile-menu {
+		@apply fixed top-0 right-0 h-full w-72 bg-[#0a0a0a] z-[56] transform translate-x-full transition-transform duration-300 pt-24 px-8;
+	}
+
+	.mobile-menu.open {
+		@apply translate-x-0;
+	}
+
+	.mobile-menu-close {
+		@apply absolute top-6 right-6 text-white bg-transparent border-none cursor-pointer p-2;
+	}
+
+	.mobile-menu-close svg {
+		@apply w-6 h-6;
+	}
+
+	.mobile-menu-links {
+		@apply list-none p-0 m-0 space-y-1;
+	}
+
+	.mobile-menu-links li a {
+		@apply block py-3 text-white/70 text-base font-medium hover:text-white transition-colors no-underline border-b border-white/10;
+	}
+}

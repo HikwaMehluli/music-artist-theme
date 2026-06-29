@@ -1,0 +1,77 @@
+@layer components {
+	.site-header {
+		@apply fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-black/80 backdrop-blur-md;
+	}
+
+	.site-header.scrolled {
+		@apply bg-black/95 shadow-lg;
+	}
+
+	.header-container {
+		@apply max-w-[1300px] mx-auto px-5 md:px-8 lg:px-10 flex items-center justify-between h-20;
+	}
+
+	.logo a {
+		@apply text-white text-xl font-bold tracking-widest uppercase;
+	}
+
+	.nav-menu {
+		@apply hidden md:flex items-center gap-8 list-none m-0 p-0;
+	}
+
+	.nav-item a {
+		@apply text-white/80 text-sm font-medium hover:text-white transition-colors no-underline;
+	}
+
+	.nav-item.active a {
+		@apply text-white;
+	}
+
+	.dropdown-menu {
+		@apply hidden absolute top-full left-0 bg-white min-w-[200px] py-2 shadow-xl z-50;
+	}
+
+	.has-dropdown {
+		@apply relative;
+	}
+
+	.has-dropdown:hover .dropdown-menu {
+		@apply block;
+	}
+
+	.dropdown-menu li a {
+		@apply block px-5 py-2 text-gray-700 hover:bg-gray-50 text-sm;
+	}
+
+	.header-right {
+		@apply flex items-center gap-6 ml-auto;
+	}
+
+	.header-actions {
+		@apply flex items-center gap-4;
+	}
+
+	.search-toggle {
+		@apply text-white bg-transparent border-none cursor-pointer p-1;
+	}
+
+	.menu-toggle {
+		@apply flex flex-col gap-1.5 bg-transparent border-none cursor-pointer p-1 md:hidden relative z-[60];
+	}
+
+	.menu-toggle span {
+		@apply block w-6 h-0.5 bg-white transition-all duration-300;
+	}
+
+	.menu-toggle.active span:nth-child(1) {
+		@apply rotate-45 translate-y-2;
+	}
+
+	.menu-toggle.active span:nth-child(2) {
+		@apply opacity-0;
+	}
+
+	.menu-toggle.active span:nth-child(3) {
+		@apply -rotate-45 -translate-y-2;
+	}
+}

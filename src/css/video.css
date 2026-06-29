@@ -1,0 +1,25 @@
+@layer components {
+	.video-item {
+		@apply cursor-pointer;
+	}
+
+	.video-item.large {
+		@apply col-span-2 row-span-2;
+	}
+
+	.play-icon {
+		@apply text-white/50 text-4xl;
+	}
+
+	.video-info {
+		@apply mt-3;
+	}
+
+	.video-info h4 {
+		@apply text-white font-medium;
+	}
+
+	.video-meta {
+		@apply text-[#d4d4d4] text-sm;
+	}
+}
