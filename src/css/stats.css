@@ -4,6 +4,6 @@
 	}
 
 	.stat-label {
-		@apply text-[#d4d4d4] text-sm;
+		@apply text-black/50 text-sm;
 	}
 }

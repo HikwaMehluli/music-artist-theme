@@ -1537,8 +1537,7 @@ body {
 .stat-label {
   font-size: 0.875rem;
   line-height: 1.25rem;
-  --tw-text-opacity: 1;
-  color: rgb(212 212 212 / var(--tw-text-opacity, 1));
+  color: rgb(0 0 0 / 0.5);
 }
 
 .album-grid-3col {
