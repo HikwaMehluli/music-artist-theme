@@ -1,8 +1,8 @@
-# thatAfro
+# Music Artist Theme
 
 A static multi-page website for a fictional music artist. Built with plain HTML + Tailwind CSS v3 — no frameworks, no backend.
 
-## Live Preview
+## Live Preview site
 
 > http://localhost:8080 (run `npm start`)
 

@@ -1,8 +1,7 @@
 {
-	"name": "music-html",
+	"name": "music-artist",
 	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
+	"description": "A static multi-page website for a fictional music artist. Built with plain HTML + Tailwind CSS v3 — no frameworks, no backend.",
 	"scripts": {
 		"dev": "concurrently \"npx tailwindcss -i ./src/css/_entry.css -o ./dist/styles.css --watch\" \"vite\"",
 		"build": "npx tailwindcss -i ./src/css/_entry.css -o ./dist/styles.css --minify && vite build",
@@ -10,9 +9,8 @@
 		"watch": "npx tailwindcss -i ./src/css/_entry.css -o ./dist/styles.css --watch"
 	},
 	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"type": "commonjs",
+	"author": "Hikwa Mehluli",
+	"license": "MIT",
 	"devDependencies": {
 		"autoprefixer": "^10.5.2",
 		"concurrently": "^10.0.3",
